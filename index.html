@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projext</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    container: {
+                        center: true,
+                    },
+
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <section class="container mx-auto px-[30px] py-[50px]">
+            <div class="flex flex-col items-center gap-y-[50px] lg:flex-row lg:items-start lg:justify-between bg-no-repeat bg-cover bg-[url('./images/img_bg.png')]  w-full rounded-[30px] px-[70px] py-[100px]">
+                <h1 class="text-white text-[50px] font-bold font-['Roboto'] capitalize leading-[60px] tracking-tight">
+                    Subscribe Our Newsletter</h1>
+                <div class="flex  sm:flex-row flex-col gap-y-[20px] items-center gap-x-[10px]">
+                    <form class="rounded-2xl py-[28px] px-[30px] .placeholder-transparent bg-white" action="/action_page.php">
+                        <input class="outline-none " id="phone" name="phone" placeholder="Enter your email address">
+                    </form>
+                    
+
+                    <a href="">
+                        <button
+                            class="flex flex-row items-center gap-x-[15px] py-[26px] px-[30px] rounded-2xl bg-slate-700">
+                            <h1 class="text-white text-lg font-bold font-['Open Sans'] leading-7 tracking-tight">
+                                Subscribe</h1>
+                            <div class="w-[35px] h-[28px] rounded-full bg-slate-600 flex items-center justify-center">
+                                <img src="./images/Vector.png" alt="">
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto py-[100px] px-[70px] border-b-[2px]">
+            <div class="flex flex-col items-center lg:flex-row lg:justify-between gap-y-[50px]">
+                <div class="flex flex-col items-center lg:items-end gap-y-[35px] pr-[15px] lg:border-r-[2px] p-[30px]  border-b-[2px]">
+                    <h1 class="text-center lg:text-right text-slate-700 text-3xl font-bold font-['Roboto'] leading-[42px] tracking-tight">Contact Us</h1>
+                    <div class="flex flex-col items-center lg:items-end gap-y-[8px]">
+                        <h1 class="w-[220px] text-center lg:text-right text-slate-600 font-semibold text-lg  font-['Open Sans'] leading-7 tracking-tight">Email</h1>
+                        <p class="w-[220px] text-center lg:text-right text-gray-600 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight">needhelp@organick.com</p>
+                    </div>
+                    <div class="flex flex-col items-end gap-y-[8px]">
+                        <h1 class="w-[220px] text-center lg:text-right text-gray-600 text-lg font-semibold font-['Open Sans'] leading-7 tracking-tight">Phone</h1>
+                        <p class="w-[220px] text-center lg:text-right text-gray-600 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight">123 (1254) 1452</p>
+                    </div>
+                    <div class="flex flex-col items-end gap-y-[8px]">
+                        <h1 class="w-[220px] text-center lg:text-right text-gray-600 text-lg font-semibold font-['Open Sans'] leading-7 tracking-tight">Address</h1>
+                        <p class="w-[220px] text-center lg:text-right text-gray-600 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight">88 Road, Brooklyn Street, USA</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-y-[45px] text-center  p-[30px]  border-b-[2px]">
+                    <h1><img src="./images/logo_main.png" alt=""></h1>
+                    <p class="lg:w-[567px] text-center text-gray-600 text-lg font-normal font-['Open Sans'] leading-loose tracking-tight">We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
+                    <div class="flex flex-col sm:flex-row gap-y-[20px] items-center gap-x-[20px]">
+                        <img class="rounded-full" src="./images/logo_facebook.png" alt="">
+                        <img class="rounded-full" src="./images/logo_twit.png" alt="">
+                        <img class="rounded-full" src="./images/logo_insta.png" alt="">
+                        <img class="rounded-full" src="./images/logo_pin.png" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col items-center lg:items-end gap-y-[20x] lg:border-l-[2px] pl-[15px]  p-[30px]  border-b-[2px]">
+                    <h1 class="text-slate-700 text-2xl font-bold font-['Roboto'] leading-[42px] tracking-tight">Utility Pages</h1>
+                    <ul class="flex flex-col items-center lg:items-start gap-y-[24px] text-gray-600 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight">
+                        <li>Style Guide</li>
+                        <li>Protected</li>
+                        <li>Page Not Found</li>
+                        <li>Changelog</li>
+                        <li>Licenses</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container py-[50px]  flex justify-center items-center">
+            <div class="flex flex-col gap-y-[20px] md:flex-row items-center gap-x-[5px] ">
+                <p class="text-[24px] text-center text-slate-700 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight"> Copyright © Organick |</p>
+                <p class="text-[24px] text-center text-slate-700 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight"> Designed by VictorFlow |</p>
+                <p class="text-[24px] text-center text-slate-700 text-lg font-normal font-['Open Sans'] leading-7 tracking-tight"> Powered by Webflow |</p> 
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
